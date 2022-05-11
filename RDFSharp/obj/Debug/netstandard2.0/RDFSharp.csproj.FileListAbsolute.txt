@@ -1,0 +1,11 @@
+D:\Github\RDFSharp\RDFSharp\bin\Debug\netstandard2.0\RDFSharp.xml
+D:\Github\RDFSharp\RDFSharp\bin\Debug\netstandard2.0\RDFSharp.deps.json
+D:\Github\RDFSharp\RDFSharp\bin\Debug\netstandard2.0\RDFSharp.dll
+D:\Github\RDFSharp\RDFSharp\bin\Debug\netstandard2.0\RDFSharp.pdb
+D:\Github\RDFSharp\RDFSharp\obj\Debug\netstandard2.0\RDFSharp.csprojAssemblyReference.cache
+D:\Github\RDFSharp\RDFSharp\obj\Debug\netstandard2.0\RDFSharp.AssemblyInfoInputs.cache
+D:\Github\RDFSharp\RDFSharp\obj\Debug\netstandard2.0\RDFSharp.AssemblyInfo.cs
+D:\Github\RDFSharp\RDFSharp\obj\Debug\netstandard2.0\RDFSharp.csproj.CoreCompileInputs.cache
+D:\Github\RDFSharp\RDFSharp\obj\Debug\netstandard2.0\RDFSharp.sourcelink.json
+D:\Github\RDFSharp\RDFSharp\obj\Debug\netstandard2.0\RDFSharp.dll
+D:\Github\RDFSharp\RDFSharp\obj\Debug\netstandard2.0\RDFSharp.pdb

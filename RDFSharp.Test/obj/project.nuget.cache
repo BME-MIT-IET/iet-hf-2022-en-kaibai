@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ksyvKpGIHsg+vsnMqnaV9XYE68OuqXjkSniQSfYPPydChEH3PulHUld+CLqzOytYvzDlq8eLq0ZgqOOQEGic9w==",
+  "success": true,
+  "projectFilePath": "D:\\Github\\RDFSharp\\RDFSharp.Test\\RDFSharp.Test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gygongyi\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
