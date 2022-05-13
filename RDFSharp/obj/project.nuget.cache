@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RoMkbB+4LOlMBys6js5Z9wOSpWEqRW1q6caWQ0sDv2pFR8UY9+gX3G3/JhFUT7exWmvYz1s5uHt95r80jgSlaA==",
+  "dgSpecHash": "D0+MjQiDARYCN7eAFQ7uzdyUTRohXNbSP6+dwb9Le1mi7D2PxB7dHFO/Sku5yp1BsEYbb4cuwxPsNJtV7O5xGg==",
   "success": true,
-  "projectFilePath": "D:\\Github\\RDFSharp\\RDFSharp\\RDFSharp.csproj",
+  "projectFilePath": "D:\\Github\\iet-hf-2022-en-kaibai\\RDFSharp\\RDFSharp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gygongyi\\.nuget\\packages\\microsoft.build.tasks.git\\1.1.1\\microsoft.build.tasks.git.1.1.1.nupkg.sha512",
     "C:\\Users\\gygongyi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

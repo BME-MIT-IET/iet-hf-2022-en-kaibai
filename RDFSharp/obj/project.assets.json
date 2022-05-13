@@ -390,11 +390,11 @@
   "project": {
     "version": "2.26.1",
     "restore": {
-      "projectUniqueName": "D:\\Github\\RDFSharp\\RDFSharp\\RDFSharp.csproj",
+      "projectUniqueName": "D:\\Github\\iet-hf-2022-en-kaibai\\RDFSharp\\RDFSharp.csproj",
       "projectName": "RDFSharp",
-      "projectPath": "D:\\Github\\RDFSharp\\RDFSharp\\RDFSharp.csproj",
+      "projectPath": "D:\\Github\\iet-hf-2022-en-kaibai\\RDFSharp\\RDFSharp.csproj",
       "packagesPath": "C:\\Users\\gygongyi\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\RDFSharp\\RDFSharp\\obj\\",
+      "outputPath": "D:\\Github\\iet-hf-2022-en-kaibai\\RDFSharp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -453,7 +453,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

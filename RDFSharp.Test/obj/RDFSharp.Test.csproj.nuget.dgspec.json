@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\RDFSharp\\RDFSharp.Test\\RDFSharp.Test.csproj": {}
+    "D:\\Github\\iet-hf-2022-en-kaibai\\RDFSharp.Test\\RDFSharp.Test.csproj": {}
   },
   "projects": {
-    "D:\\Github\\RDFSharp\\RDFSharp.Test\\RDFSharp.Test.csproj": {
+    "D:\\Github\\iet-hf-2022-en-kaibai\\RDFSharp.Test\\RDFSharp.Test.csproj": {
       "version": "2.26.1",
       "restore": {
-        "projectUniqueName": "D:\\Github\\RDFSharp\\RDFSharp.Test\\RDFSharp.Test.csproj",
+        "projectUniqueName": "D:\\Github\\iet-hf-2022-en-kaibai\\RDFSharp.Test\\RDFSharp.Test.csproj",
         "projectName": "RDFSharp.Test",
-        "projectPath": "D:\\Github\\RDFSharp\\RDFSharp.Test\\RDFSharp.Test.csproj",
+        "projectPath": "D:\\Github\\iet-hf-2022-en-kaibai\\RDFSharp.Test\\RDFSharp.Test.csproj",
         "packagesPath": "C:\\Users\\gygongyi\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\RDFSharp\\RDFSharp.Test\\obj\\",
+        "outputPath": "D:\\Github\\iet-hf-2022-en-kaibai\\RDFSharp.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Github\\RDFSharp\\RDFSharp\\RDFSharp.csproj": {
-                "projectPath": "D:\\Github\\RDFSharp\\RDFSharp\\RDFSharp.csproj"
+              "D:\\Github\\iet-hf-2022-en-kaibai\\RDFSharp\\RDFSharp.csproj": {
+                "projectPath": "D:\\Github\\iet-hf-2022-en-kaibai\\RDFSharp\\RDFSharp.csproj"
               }
             }
           }
@@ -47,6 +47,30 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "WireMock.Net": {
+              "target": "Package",
+              "version": "[1.4.41, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,18 +81,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Github\\RDFSharp\\RDFSharp\\RDFSharp.csproj": {
+    "D:\\Github\\iet-hf-2022-en-kaibai\\RDFSharp\\RDFSharp.csproj": {
       "version": "2.26.1",
       "restore": {
-        "projectUniqueName": "D:\\Github\\RDFSharp\\RDFSharp\\RDFSharp.csproj",
+        "projectUniqueName": "D:\\Github\\iet-hf-2022-en-kaibai\\RDFSharp\\RDFSharp.csproj",
         "projectName": "RDFSharp",
-        "projectPath": "D:\\Github\\RDFSharp\\RDFSharp\\RDFSharp.csproj",
+        "projectPath": "D:\\Github\\iet-hf-2022-en-kaibai\\RDFSharp\\RDFSharp.csproj",
         "packagesPath": "C:\\Users\\gygongyi\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\RDFSharp\\RDFSharp\\obj\\",
+        "outputPath": "D:\\Github\\iet-hf-2022-en-kaibai\\RDFSharp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -127,7 +156,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
