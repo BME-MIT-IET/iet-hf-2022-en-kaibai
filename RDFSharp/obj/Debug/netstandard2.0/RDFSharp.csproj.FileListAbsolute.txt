@@ -9,3 +9,15 @@ D:\Github\RDFSharp\RDFSharp\obj\Debug\netstandard2.0\RDFSharp.csproj.CoreCompile
 D:\Github\RDFSharp\RDFSharp\obj\Debug\netstandard2.0\RDFSharp.sourcelink.json
 D:\Github\RDFSharp\RDFSharp\obj\Debug\netstandard2.0\RDFSharp.dll
 D:\Github\RDFSharp\RDFSharp\obj\Debug\netstandard2.0\RDFSharp.pdb
+C:\Users\ASUS\Documents\GitHub\iet-hf-2022-en-kaibai\RDFSharp\bin\Debug\netstandard2.0\RDFSharp.xml
+C:\Users\ASUS\Documents\GitHub\iet-hf-2022-en-kaibai\RDFSharp\bin\Debug\netstandard2.0\RDFSharp.deps.json
+C:\Users\ASUS\Documents\GitHub\iet-hf-2022-en-kaibai\RDFSharp\bin\Debug\netstandard2.0\RDFSharp.dll
+C:\Users\ASUS\Documents\GitHub\iet-hf-2022-en-kaibai\RDFSharp\bin\Debug\netstandard2.0\RDFSharp.pdb
+C:\Users\ASUS\Documents\GitHub\iet-hf-2022-en-kaibai\RDFSharp\obj\Debug\netstandard2.0\RDFSharp.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\GitHub\iet-hf-2022-en-kaibai\RDFSharp\obj\Debug\netstandard2.0\RDFSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Documents\GitHub\iet-hf-2022-en-kaibai\RDFSharp\obj\Debug\netstandard2.0\RDFSharp.AssemblyInfoInputs.cache
+C:\Users\ASUS\Documents\GitHub\iet-hf-2022-en-kaibai\RDFSharp\obj\Debug\netstandard2.0\RDFSharp.AssemblyInfo.cs
+C:\Users\ASUS\Documents\GitHub\iet-hf-2022-en-kaibai\RDFSharp\obj\Debug\netstandard2.0\RDFSharp.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\GitHub\iet-hf-2022-en-kaibai\RDFSharp\obj\Debug\netstandard2.0\RDFSharp.sourcelink.json
+C:\Users\ASUS\Documents\GitHub\iet-hf-2022-en-kaibai\RDFSharp\obj\Debug\netstandard2.0\RDFSharp.dll
+C:\Users\ASUS\Documents\GitHub\iet-hf-2022-en-kaibai\RDFSharp\obj\Debug\netstandard2.0\RDFSharp.pdb
