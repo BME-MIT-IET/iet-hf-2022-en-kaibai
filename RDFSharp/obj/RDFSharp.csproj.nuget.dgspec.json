@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\Github\\iet-hf-2022-en-kaibai\\RDFSharp\\RDFSharp.csproj": {}
   },
   "projects": {
@@ -12,12 +13,25 @@
         "projectPath": "D:\\Github\\iet-hf-2022-en-kaibai\\RDFSharp\\RDFSharp.csproj",
         "packagesPath": "C:\\Users\\gygongyi\\.nuget\\packages\\",
         "outputPath": "D:\\Github\\iet-hf-2022-en-kaibai\\RDFSharp\\obj\\",
+=======
+    "C:\\Users\\ASUS\\Documents\\GitHub\\iet-hf-2022-en-kaibai\\RDFSharp\\RDFSharp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ASUS\\Documents\\GitHub\\iet-hf-2022-en-kaibai\\RDFSharp\\RDFSharp.csproj": {
+      "version": "2.26.1",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ASUS\\Documents\\GitHub\\iet-hf-2022-en-kaibai\\RDFSharp\\RDFSharp.csproj",
+        "projectName": "RDFSharp",
+        "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\iet-hf-2022-en-kaibai\\RDFSharp\\RDFSharp.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\Documents\\GitHub\\iet-hf-2022-en-kaibai\\RDFSharp\\obj\\",
+>>>>>>> e48ca39ce7ef29133a439cdb0a7b095bf91d6ec8
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\gygongyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -70,7 +84,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+>>>>>>> e48ca39ce7ef29133a439cdb0a7b095bf91d6ec8
         }
       }
     }

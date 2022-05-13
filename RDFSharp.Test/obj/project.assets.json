@@ -5920,23 +5920,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gygongyi\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "2.26.1",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\Github\\iet-hf-2022-en-kaibai\\RDFSharp.Test\\RDFSharp.Test.csproj",
       "projectName": "RDFSharp.Test",
       "projectPath": "D:\\Github\\iet-hf-2022-en-kaibai\\RDFSharp.Test\\RDFSharp.Test.csproj",
       "packagesPath": "C:\\Users\\gygongyi\\.nuget\\packages\\",
       "outputPath": "D:\\Github\\iet-hf-2022-en-kaibai\\RDFSharp.Test\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\ASUS\\Documents\\GitHub\\iet-hf-2022-en-kaibai\\RDFSharp.Test\\RDFSharp.Test.csproj",
+      "projectName": "RDFSharp.Test",
+      "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\iet-hf-2022-en-kaibai\\RDFSharp.Test\\RDFSharp.Test.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ASUS\\Documents\\GitHub\\iet-hf-2022-en-kaibai\\RDFSharp.Test\\obj\\",
+>>>>>>> e48ca39ce7ef29133a439cdb0a7b095bf91d6ec8
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\gygongyi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5951,8 +5959,13 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+<<<<<<< HEAD
             "D:\\Github\\iet-hf-2022-en-kaibai\\RDFSharp\\RDFSharp.csproj": {
               "projectPath": "D:\\Github\\iet-hf-2022-en-kaibai\\RDFSharp\\RDFSharp.csproj"
+=======
+            "C:\\Users\\ASUS\\Documents\\GitHub\\iet-hf-2022-en-kaibai\\RDFSharp\\RDFSharp.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\iet-hf-2022-en-kaibai\\RDFSharp\\RDFSharp.csproj"
+>>>>>>> e48ca39ce7ef29133a439cdb0a7b095bf91d6ec8
             }
           }
         }
@@ -6005,7 +6018,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+>>>>>>> e48ca39ce7ef29133a439cdb0a7b095bf91d6ec8
       }
     }
   }

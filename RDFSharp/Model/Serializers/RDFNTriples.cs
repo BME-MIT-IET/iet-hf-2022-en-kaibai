@@ -256,14 +256,14 @@ namespace RDFSharp.Model
                         {
 
                             #region sanitize
-                            tokens[2] = regexSqt.Replace(tokens[2], string.Empty);
-                            tokens[2] = regexEqt.Replace(tokens[2], string.Empty);
-                            tokens[2] = tokens[2].Replace("\\\\", "\\")
-                                                 .Replace("\\\"", "\"")
-                                                 .Replace("\\n", "\n")
-                                                 .Replace("\\t", "\t")
-                                                 .Replace("\\r", "\r");
-                            tokens[2] = RDFModelUtilities.ASCII_To_Unicode(tokens[2]);
+                            string firstString = regexSqt.Replace(tokens[2], string.Empty);
+                            string secondString = regexEqt.Replace(firstString, string.Empty);
+                            string thirdString = secondString.Replace("\\\\", "\\")
+                                                  .Replace("\\\"", "\"")
+                                                  .Replace("\\n", "\n")
+                                                  .Replace("\\t", "\t")
+                                                  .Replace("\\r", "\r");
+                            tokens[2] = RDFModelUtilities.ASCII_To_Unicode(thirdString);
                             #endregion
 
                             #region plain literal
