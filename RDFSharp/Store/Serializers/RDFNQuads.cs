@@ -261,14 +261,14 @@ namespace RDFSharp.Store
                         else
                         {
                             #region sanitize
-                            tokens[2] = RDFNTriples.regexSqt.Replace(tokens[2], string.Empty);
-                            tokens[2] = RDFNTriples.regexEqt.Replace(tokens[2], string.Empty);
-                            tokens[2] = tokens[2].Replace("\\\\", "\\")
-                                                 .Replace("\\\"", "\"")
-                                                 .Replace("\\n", "\n")
-                                                 .Replace("\\t", "\t")
-                                                 .Replace("\\r", "\r");
-                            tokens[2] = RDFModelUtilities.ASCII_To_Unicode(tokens[2]);
+                            string firstString = RDFNTriples.regexSqt.Replace(tokens[2], string.Empty);
+                            string secondString = RDFNTriples.regexEqt.Replace(firstString, string.Empty);
+                            string thirdString = secondString.Replace("\\\\", "\\")
+                                                     .Replace("\\\"", "\"")
+                                                     .Replace("\\n", "\n")
+                                                     .Replace("\\t", "\t")
+                                                     .Replace("\\r", "\r");
+                            tokens[2] = RDFModelUtilities.ASCII_To_Unicode(thirdString);
                             #endregion
 
                             #region plain literal
