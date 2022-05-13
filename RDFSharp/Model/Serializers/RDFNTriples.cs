@@ -257,12 +257,12 @@ namespace RDFSharp.Model
 
                             #region sanitize
                             tokens[2] = regexSqt.Replace(tokens[2], string.Empty);
-                            tokens[2] = regexEqt.Replace(tokens[2], string.Empty);
-                            tokens[2] = tokens[2].Replace("\\\\", "\\")
-                                                 .Replace("\\\"", "\"")
-                                                 .Replace("\\n", "\n")
-                                                 .Replace("\\t", "\t")
-                                                 .Replace("\\r", "\r");
+                            //tokens[2] = regexEqt.Replace(tokens[2], string.Empty);
+                                                 //.Replace("\\\\", "\\")
+                                                 //.Replace("\\\"", "\"")
+                                                 //.Replace("\\n", "\n")
+                                                 //.Replace("\\t", "\t")
+                            tokens[2] = tokens[2].Replace("\\r", "\r");
                             tokens[2] = RDFModelUtilities.ASCII_To_Unicode(tokens[2]);
                             #endregion
 
