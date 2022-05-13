@@ -1,0 +1,2786 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft(R) Visual C# 编译器",
+        "version": "4.1.0.0",
+        "fileVersion": "4.1.0-5.22128.4 (5d10d428)",
+        "semanticVersion": "4.1.0",
+        "language": "zh-CN"
+      },
+      "results": [
+        {
+          "ruleId": "SYSLIB0011",
+          "level": "warning",
+          "message": "“BinaryFormatter.Serialize(Stream, object)”已过时:“BinaryFormatter serialization is obsolete and should not be used. See https://aka.ms/binaryformatter for more information.”",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Model/RDFModelExceptionTest.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 17,
+                  "endLine": 78,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "SYSLIB0011",
+          "level": "warning",
+          "message": "“BinaryFormatter.Deserialize(Stream)”已过时:“BinaryFormatter serialization is obsolete and should not be used. See https://aka.ms/binaryformatter for more information.”",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Model/RDFModelExceptionTest.cs",
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 43,
+                  "endLine": 87,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "SYSLIB0011",
+          "level": "warning",
+          "message": "“BinaryFormatter.Serialize(Stream, object)”已过时:“BinaryFormatter serialization is obsolete and should not be used. See https://aka.ms/binaryformatter for more information.”",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/RDFQueryExceptionTest.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 17,
+                  "endLine": 78,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "SYSLIB0011",
+          "level": "warning",
+          "message": "“BinaryFormatter.Deserialize(Stream)”已过时:“BinaryFormatter serialization is obsolete and should not be used. See https://aka.ms/binaryformatter for more information.”",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/RDFQueryExceptionTest.cs",
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 43,
+                  "endLine": 87,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "SYSLIB0011",
+          "level": "warning",
+          "message": "“BinaryFormatter.Serialize(Stream, object)”已过时:“BinaryFormatter serialization is obsolete and should not be used. See https://aka.ms/binaryformatter for more information.”",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Store/RDFStoreExceptionTest.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 17,
+                  "endLine": 78,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "SYSLIB0011",
+          "level": "warning",
+          "message": "“BinaryFormatter.Deserialize(Stream)”已过时:“BinaryFormatter serialization is obsolete and should not be used. See https://aka.ms/binaryformatter for more information.”",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Store/RDFStoreExceptionTest.cs",
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 43,
+                  "endLine": 87,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CA2249",
+          "level": "note",
+          "message": "Use 'string.Contains' instead of 'string.IndexOf' to improve readability",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Model/RDFModelUtilitiesTest.cs",
+                "region": {
+                  "startLine": 151,
+                  "startColumn": 27,
+                  "endLine": 151,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2249",
+          "level": "note",
+          "message": "Use 'string.Contains' instead of 'string.IndexOf' to improve readability",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Model/RDFModelUtilitiesTest.cs",
+                "region": {
+                  "startLine": 152,
+                  "startColumn": 27,
+                  "endLine": 152,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2249",
+          "level": "note",
+          "message": "Use 'string.Contains' instead of 'string.IndexOf' to improve readability",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Model/RDFModelUtilitiesTest.cs",
+                "region": {
+                  "startLine": 168,
+                  "startColumn": 27,
+                  "endLine": 168,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2249",
+          "level": "note",
+          "message": "Use 'string.Contains' instead of 'string.IndexOf' to improve readability",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Model/RDFModelUtilitiesTest.cs",
+                "region": {
+                  "startLine": 169,
+                  "startColumn": 27,
+                  "endLine": 169,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2249",
+          "level": "note",
+          "message": "Use 'string.Contains' instead of 'string.IndexOf' to improve readability",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Model/RDFModelUtilitiesTest.cs",
+                "region": {
+                  "startLine": 181,
+                  "startColumn": 27,
+                  "endLine": 181,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2249",
+          "level": "note",
+          "message": "Use 'string.Contains' instead of 'string.IndexOf' to improve readability",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Model/RDFModelUtilitiesTest.cs",
+                "region": {
+                  "startLine": 182,
+                  "startColumn": 27,
+                  "endLine": 182,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2249",
+          "level": "note",
+          "message": "Use 'string.Contains' instead of 'string.IndexOf' to improve readability",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Model/RDFModelUtilitiesTest.cs",
+                "region": {
+                  "startLine": 193,
+                  "startColumn": 27,
+                  "endLine": 193,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2249",
+          "level": "note",
+          "message": "Use 'string.Contains' instead of 'string.IndexOf' to improve readability",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Model/RDFModelUtilitiesTest.cs",
+                "region": {
+                  "startLine": 194,
+                  "startColumn": 27,
+                  "endLine": 194,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2249",
+          "level": "note",
+          "message": "Use 'string.Contains' instead of 'string.IndexOf' to improve readability",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Model/RDFModelUtilitiesTest.cs",
+                "region": {
+                  "startLine": 237,
+                  "startColumn": 27,
+                  "endLine": 237,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2249",
+          "level": "note",
+          "message": "Use 'string.Contains' instead of 'string.IndexOf' to improve readability",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Model/RDFModelUtilitiesTest.cs",
+                "region": {
+                  "startLine": 248,
+                  "startColumn": 27,
+                  "endLine": 248,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2249",
+          "level": "note",
+          "message": "Use 'string.Contains' instead of 'string.IndexOf' to improve readability",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Model/RDFModelUtilitiesTest.cs",
+                "region": {
+                  "startLine": 259,
+                  "startColumn": 27,
+                  "endLine": 259,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2249",
+          "level": "note",
+          "message": "Use 'string.Contains' instead of 'string.IndexOf' to improve readability",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Model/RDFModelUtilitiesTest.cs",
+                "region": {
+                  "startLine": 260,
+                  "startColumn": 27,
+                  "endLine": 260,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2249",
+          "level": "note",
+          "message": "Use 'string.Contains' instead of 'string.IndexOf' to improve readability",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Model/RDFModelUtilitiesTest.cs",
+                "region": {
+                  "startLine": 319,
+                  "startColumn": 27,
+                  "endLine": 319,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2249",
+          "level": "note",
+          "message": "Use 'string.Contains' instead of 'string.IndexOf' to improve readability",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Model/RDFModelUtilitiesTest.cs",
+                "region": {
+                  "startLine": 329,
+                  "startColumn": 27,
+                  "endLine": 329,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2249",
+          "level": "note",
+          "message": "Use 'string.Contains' instead of 'string.IndexOf' to improve readability",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Model/RDFModelUtilitiesTest.cs",
+                "region": {
+                  "startLine": 370,
+                  "startColumn": 27,
+                  "endLine": 370,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/Queries/RDFAskQueryTest.cs",
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 27,
+                  "endLine": 61,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/Queries/RDFAskQueryTest.cs",
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 27,
+                  "endLine": 62,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/Queries/RDFAskQueryTest.cs",
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 27,
+                  "endLine": 63,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/Queries/RDFAskQueryTest.cs",
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 27,
+                  "endLine": 64,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/Queries/RDFAskQueryTest.cs",
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 27,
+                  "endLine": 65,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/Queries/RDFAskQueryTest.cs",
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 27,
+                  "endLine": 66,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/Queries/RDFSelectQueryTest.cs",
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 27,
+                  "endLine": 63,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/Queries/RDFSelectQueryTest.cs",
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 27,
+                  "endLine": 64,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/Queries/RDFSelectQueryTest.cs",
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 27,
+                  "endLine": 65,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/Queries/RDFSelectQueryTest.cs",
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 27,
+                  "endLine": 66,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/Queries/RDFSelectQueryTest.cs",
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 27,
+                  "endLine": 67,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/Queries/RDFSelectQueryTest.cs",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 27,
+                  "endLine": 68,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/Queries/RDFSelectQueryTest.cs",
+                "region": {
+                  "startLine": 107,
+                  "startColumn": 27,
+                  "endLine": 107,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/Queries/RDFSelectQueryTest.cs",
+                "region": {
+                  "startLine": 109,
+                  "startColumn": 27,
+                  "endLine": 109,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/Queries/RDFAskQueryTest.cs",
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 27,
+                  "endLine": 92,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/Queries/RDFAskQueryTest.cs",
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 27,
+                  "endLine": 93,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/Queries/RDFAskQueryTest.cs",
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 27,
+                  "endLine": 94,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 27,
+                  "endLine": 45,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 27,
+                  "endLine": 46,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 27,
+                  "endLine": 47,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 27,
+                  "endLine": 48,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 27,
+                  "endLine": 49,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 27,
+                  "endLine": 50,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/Queries/RDFSelectQueryTest.cs",
+                "region": {
+                  "startLine": 142,
+                  "startColumn": 27,
+                  "endLine": 142,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/Queries/RDFSelectQueryTest.cs",
+                "region": {
+                  "startLine": 144,
+                  "startColumn": 27,
+                  "endLine": 144,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 27,
+                  "endLine": 74,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 27,
+                  "endLine": 75,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 27,
+                  "endLine": 76,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 27,
+                  "endLine": 77,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 27,
+                  "endLine": 105,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 27,
+                  "endLine": 106,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 107,
+                  "startColumn": 27,
+                  "endLine": 107,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 108,
+                  "startColumn": 27,
+                  "endLine": 108,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 110,
+                  "startColumn": 27,
+                  "endLine": 110,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/Queries/RDFSelectQueryTest.cs",
+                "region": {
+                  "startLine": 185,
+                  "startColumn": 27,
+                  "endLine": 185,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/Queries/RDFSelectQueryTest.cs",
+                "region": {
+                  "startLine": 187,
+                  "startColumn": 27,
+                  "endLine": 187,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 132,
+                  "startColumn": 27,
+                  "endLine": 132,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 133,
+                  "startColumn": 27,
+                  "endLine": 133,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 134,
+                  "startColumn": 27,
+                  "endLine": 134,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 135,
+                  "startColumn": 27,
+                  "endLine": 135,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 136,
+                  "startColumn": 27,
+                  "endLine": 136,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 27,
+                  "endLine": 137,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 162,
+                  "startColumn": 27,
+                  "endLine": 162,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 164,
+                  "startColumn": 27,
+                  "endLine": 164,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 165,
+                  "startColumn": 27,
+                  "endLine": 165,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 166,
+                  "startColumn": 27,
+                  "endLine": 166,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 193,
+                  "startColumn": 27,
+                  "endLine": 193,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 194,
+                  "startColumn": 27,
+                  "endLine": 194,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 27,
+                  "endLine": 195,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 196,
+                  "startColumn": 27,
+                  "endLine": 196,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 221,
+                  "startColumn": 27,
+                  "endLine": 221,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 223,
+                  "startColumn": 27,
+                  "endLine": 223,
+                  "endColumn": 77
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 224,
+                  "startColumn": 27,
+                  "endLine": 224,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 225,
+                  "startColumn": 27,
+                  "endLine": 225,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1829",
+          "level": "note",
+          "message": "Use the \"Count\" property instead of Enumerable.Count()",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFQueryTest.cs",
+                "region": {
+                  "startLine": 226,
+                  "startColumn": 27,
+                  "endLine": 226,
+                  "endColumn": 54
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "PropertyNameKey": "Count"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 27,
+                  "endLine": 46,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 27,
+                  "endLine": 47,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 27,
+                  "endLine": 48,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 27,
+                  "endLine": 49,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 27,
+                  "endLine": 50,
+                  "endColumn": 80
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 27,
+                  "endLine": 73,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 27,
+                  "endLine": 74,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 75,
+                  "startColumn": 27,
+                  "endLine": 75,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 27,
+                  "endLine": 76,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 27,
+                  "endLine": 77,
+                  "endColumn": 80
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 27,
+                  "endLine": 96,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 27,
+                  "endLine": 97,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 98,
+                  "startColumn": 27,
+                  "endLine": 98,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 99,
+                  "startColumn": 27,
+                  "endLine": 99,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 100,
+                  "startColumn": 27,
+                  "endLine": 100,
+                  "endColumn": 80
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 133,
+                  "startColumn": 27,
+                  "endLine": 133,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 134,
+                  "startColumn": 27,
+                  "endLine": 134,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 135,
+                  "startColumn": 27,
+                  "endLine": 135,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 176,
+                  "startColumn": 27,
+                  "endLine": 176,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 27,
+                  "endLine": 177,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 209,
+                  "startColumn": 27,
+                  "endLine": 209,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 210,
+                  "startColumn": 27,
+                  "endLine": 210,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 211,
+                  "startColumn": 27,
+                  "endLine": 211,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 236,
+                  "startColumn": 27,
+                  "endLine": 236,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 238,
+                  "startColumn": 27,
+                  "endLine": 238,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 239,
+                  "startColumn": 27,
+                  "endLine": 239,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 240,
+                  "startColumn": 27,
+                  "endLine": 240,
+                  "endColumn": 80
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 265,
+                  "startColumn": 27,
+                  "endLine": 265,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 266,
+                  "startColumn": 27,
+                  "endLine": 266,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 268,
+                  "startColumn": 27,
+                  "endLine": 268,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 293,
+                  "startColumn": 27,
+                  "endLine": 293,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 294,
+                  "startColumn": 27,
+                  "endLine": 294,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 295,
+                  "startColumn": 27,
+                  "endLine": 295,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 321,
+                  "startColumn": 27,
+                  "endLine": 321,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 322,
+                  "startColumn": 27,
+                  "endLine": 322,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/ASUS/Documents/GitHub/iet-hf-2022-en-kaibai/RDFSharp.Test/Query/Mirella/Algebra/RDFPatternGroupTest.cs",
+                "region": {
+                  "startLine": 323,
+                  "startColumn": 27,
+                  "endLine": 323,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": ""
+            }
+          }
+        }
+      ],
+      "rules": {
+        "CA1827": {
+          "id": "CA1827",
+          "shortDescription": "Do not use Count() or LongCount() when Any() can be used",
+          "fullDescription": "For non-empty collections, Count() and LongCount() enumerate the entire sequence, while Any() stops at the first item or the first item that satisfies a condition.",
+          "defaultLevel": "note",
+          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1827",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA1829": {
+          "id": "CA1829",
+          "shortDescription": "Use Length/Count property instead of Count() when available",
+          "fullDescription": "Enumerable.Count() potentially enumerates the sequence while a Length/Count property is a direct access.",
+          "defaultLevel": "note",
+          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1829",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA2249": {
+          "id": "CA2249",
+          "shortDescription": "Consider using 'string.Contains' instead of 'string.IndexOf'",
+          "fullDescription": "Calls to 'string.IndexOf' where the result is used to check for the presence/absence of a substring can be replaced by 'string.Contains'.",
+          "defaultLevel": "note",
+          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2249",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "SYSLIB0011": {
+          "id": "SYSLIB0011",
+          "shortDescription": "类型或成员已过时",
+          "defaultLevel": "warning",
+          "helpUri": "https://aka.ms/dotnet-warnings/SYSLIB0011",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry",
+              "CustomObsolete"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
