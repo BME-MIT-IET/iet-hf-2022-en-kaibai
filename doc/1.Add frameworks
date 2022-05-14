@@ -1,0 +1,8 @@
+Task 1.Add build framework and CI framework 
+
+  For the whole project, I did the tasks in CI and static techniques which are the first two ones, adding the build framework and adding a CI framework to the project. 
+  For the first task, as our project uses c# language so the .NET workflow is recommended. 
+As the project is written in .NET 6.0 so I modify the dotnet version to 6.0 in the dotnet.yml file to fit this project.
+  For the second task, I compare the TravisCI and Appveyor. 
+  They are both good integrated framework to manage the repository. But the first one is not flexible with .NET so I add Appveyor to our project.
+  All the above are what I did for our project.
