@@ -1,5 +1,6 @@
 # RDFSharp [![NuGet Badge](https://buildstats.info/nuget/RDFSharp)](https://www.nuget.org/packages/RDFSharp) [![codecov](https://codecov.io/gh/mdesalvo/RDFSharp/branch/master/graph/badge.svg?token=wtP1B77d3e)](https://codecov.io/gh/mdesalvo/RDFSharp)
 
+Appveyor:[![Build status](https://ci.appveyor.com/api/projects/status/ayiyfdihlvtayc2f?svg=true)](https://ci.appveyor.com/project/qiuxinyu99/iet-hf-2022-en-kaibai)
 RDFSharp has a modular API made up of 4 layers: 
 
 <b><a href="https://github.com/mdesalvo/RDFSharp/releases/download/v2.26.0/RDFSharp.Model-2.26.0.pdf">RDFSharp.Model</a></b>
