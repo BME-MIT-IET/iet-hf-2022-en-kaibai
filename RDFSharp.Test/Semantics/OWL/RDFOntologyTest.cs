@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using RDFSharp.Model;
+using RDFSharp.Query;
 using RDFSharp.Semantics.OWL;
 using System.Collections.Generic;
 
@@ -85,7 +86,6 @@ namespace RDFSharp.Test.Semantics.OWL
             Assert.IsNotNull(ontology.Data);
             Assert.IsNotNull(ontology.Annotations);
         }
-
         #endregion
     }
 }
