@@ -9,7 +9,8 @@ using System.Threading.Tasks;
 
 namespace RDFSharp.Test.Semantics.SKOS
 {
-    internal class RDFSKOSAnnotationsTest
+    [TestClass]
+    public class RDFSKOSAnnotationsTest
     {
         #region Tests
         [TestMethod]

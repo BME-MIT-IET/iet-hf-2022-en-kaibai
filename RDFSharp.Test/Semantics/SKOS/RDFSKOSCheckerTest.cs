@@ -11,7 +11,8 @@ using System.Threading.Tasks;
 
 namespace RDFSharp.Test.Semantics.SKOS
 {
-    internal class RDFSKOSCheckerTest
+    [TestClass]
+    public class RDFSKOSCheckerTest
     {
         #region Tests
 
@@ -37,8 +38,9 @@ namespace RDFSharp.Test.Semantics.SKOS
             conceptnorelationyet = new RDFSKOSConcept(resourceNoRelationYet);
             //add relations into concpetscheme
             conceptscheme.AddBroaderRelation(conceptbroader, conceptnarrow);
-            conceptscheme.AddNarrowerRelation(conceptnarrow, conceptnarrow);
+            conceptscheme.AddNarrowerRelation(conceptnarrow, conceptbroader);
             conceptscheme.AddRelatedRelation(conceptbroader, conceptrelated);
+            conceptscheme.AddRelatedRelation(conceptrelated, conceptbroader);
         }
 
         [TestMethod]
@@ -61,7 +63,7 @@ namespace RDFSharp.Test.Semantics.SKOS
 
             //check whether the CheckBroaderRelation result in Broader, narrow, related, match relations 
             Assert.IsNotNull(conceptscheme.Relations.Broader);
-            Assert.IsFalse(RDFSKOSChecker.CheckBroaderRelation(conceptscheme,conceptbroader,conceptnarrow));
+            Assert.IsTrue(RDFSKOSChecker.CheckBroaderRelation(conceptscheme,conceptbroader,conceptnarrow));
 
             Assert.IsNotNull(conceptscheme.Relations.Related);
             Assert.IsFalse(RDFSKOSChecker.CheckBroaderRelation(conceptscheme, conceptbroader, conceptrelated));
@@ -76,17 +78,14 @@ namespace RDFSharp.Test.Semantics.SKOS
         public void ShouldCheckNarrowerRelation()
         {
             //check whether the CheckNarrowerRelation result in Broader, narrow, related, match relations 
-            conceptscheme.AddBroaderRelation(conceptbroader, conceptnarrow);
             Assert.IsNotNull(conceptscheme.Relations.Broader);
             Assert.IsFalse(RDFSKOSChecker.CheckNarrowerRelation (conceptscheme, conceptbroader, conceptnarrow));
 
-            conceptscheme.AddRelatedRelation(conceptbroader, conceptrelated);
             Assert.IsNotNull(conceptscheme.Relations.Related);
             Assert.IsFalse(RDFSKOSChecker.CheckNarrowerRelation(conceptscheme, conceptbroader, conceptrelated));
 
-            conceptscheme.AddNarrowerRelation(conceptnarrow, conceptnarrow);
             Assert.IsNotNull(conceptscheme.Relations.Narrower);
-            Assert.IsFalse(RDFSKOSChecker.CheckNarrowerRelation(conceptscheme, conceptnarrow, conceptbroader));
+            Assert.IsTrue(RDFSKOSChecker.CheckNarrowerRelation(conceptscheme, conceptnarrow, conceptbroader));
 
             Assert.IsTrue(RDFSKOSChecker.CheckNarrowerRelation(conceptscheme, conceptbroader, conceptnorelationyet));
 
@@ -96,15 +95,12 @@ namespace RDFSharp.Test.Semantics.SKOS
         public void ShouldCheckRelatedRelation()
         {
             //check whether the CheckRelatedRelation result in Broader, narrow, related, match relations 
-            conceptscheme.AddBroaderRelation(conceptbroader, conceptnarrow);
             Assert.IsNotNull(conceptscheme.Relations.Broader);
             Assert.IsFalse(RDFSKOSChecker.CheckRelatedRelation(conceptscheme, conceptbroader, conceptnarrow));
 
-            conceptscheme.AddRelatedRelation(conceptbroader, conceptrelated);
             Assert.IsNotNull(conceptscheme.Relations.Related);
-            Assert.IsFalse(RDFSKOSChecker.CheckRelatedRelation(conceptscheme, conceptbroader, conceptrelated));
+            Assert.IsTrue(RDFSKOSChecker.CheckRelatedRelation(conceptscheme, conceptbroader, conceptrelated));
 
-            conceptscheme.AddNarrowerRelation(conceptnarrow, conceptnarrow);
             Assert.IsNotNull(conceptscheme.Relations.Narrower);
             Assert.IsFalse(RDFSKOSChecker.CheckRelatedRelation(conceptscheme, conceptnarrow, conceptbroader));
 
@@ -116,15 +112,12 @@ namespace RDFSharp.Test.Semantics.SKOS
         public void ShouldCheckCloseOrExactMatchRelation()
         {
             //check whether the CheckNarrowerRelation result in Broader, narrow, related, match relations 
-            conceptscheme.AddBroaderRelation(conceptbroader, conceptnarrow);
             Assert.IsNotNull(conceptscheme.Relations.Broader);
             Assert.IsFalse(RDFSKOSChecker.CheckCloseOrExactMatchRelation(conceptscheme, conceptbroader, conceptnarrow));
 
-            conceptscheme.AddRelatedRelation(conceptbroader, conceptrelated);
             Assert.IsNotNull(conceptscheme.Relations.Related);
-            Assert.IsFalse(RDFSKOSChecker.CheckCloseOrExactMatchRelation(conceptscheme, conceptbroader, conceptrelated));
+            Assert.IsTrue(RDFSKOSChecker.CheckCloseOrExactMatchRelation(conceptscheme, conceptbroader, conceptrelated));
 
-            conceptscheme.AddNarrowerRelation(conceptnarrow, conceptnarrow);
             Assert.IsNotNull(conceptscheme.Relations.Narrower);
             Assert.IsFalse(RDFSKOSChecker.CheckCloseOrExactMatchRelation(conceptscheme, conceptnarrow, conceptbroader));
 
