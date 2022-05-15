@@ -41,7 +41,7 @@ namespace RDFSharp.Test.Semantics.SKOS
             Assert.IsNotNull(annotations.ScopeNote.Entries);
 
             //check whether the number of insid attributes'List should be 0
-            //and check whether the type of entry is 'Annotation'
+            //and check whether the type of ontology toxnomy is 'Annotation'
             Assert.IsTrue(annotations.AltLabel.EntriesCount==0);
             Assert.IsTrue(annotations.AltLabel.Category== RDFSemanticsEnums.RDFOntologyTaxonomyCategory.Annotation);
             Assert.IsTrue(annotations.ChangeNote.EntriesCount==0);
@@ -63,7 +63,7 @@ namespace RDFSharp.Test.Semantics.SKOS
             Assert.IsTrue(annotations.ScopeNote.EntriesCount == 0);
             Assert.IsTrue(annotations.ScopeNote.Category == RDFSemanticsEnums.RDFOntologyTaxonomyCategory.Annotation);
 
-            //check whether the annotations accept Duplicates
+            //check whether the annotations accept exceptionally Duplicates
             Assert.IsFalse(annotations.AltLabel.AcceptDuplicates);
             Assert.IsFalse(annotations.ChangeNote.AcceptDuplicates);
             Assert.IsFalse(annotations.Definition.AcceptDuplicates);
