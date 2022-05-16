@@ -1,0 +1,18 @@
+# Task 3-b : Creating or extending unit tests of SKOS
+In this project, the unit test for Model, Properties, Query, Stored is done by the original developer, so my task is testing the SKOS files in Semantics part.
+
+I choose to use Microsoft.VisualStudio.TestTools.UnitTesting as the test tool to keep the convention from the originial developer.
+
+In this task, I have learned how to use Visual Studio 2022 to unit test dot net 6.0 projects, and understand the purpose and significance of unit testing, and realize the importance of unit testing. And learn to use DataRow and DynamicData to simulate input data.
+
+Through my assignments, I completed a total of 9 successful unit tests for the SKOS test and tests for 5 different classes. Successfully verified the correct operation of this part of the code. Helps improve the quality and reliability of the code.
+
+Name of Unit Tests File Created by WU HANGZE:
+
+>RDFSKOSAnnotationsTest.cs
+RDFSKOSCheckerTest.cs
+RDFSKOSHelperTest.cs
+RDFSKOSOntologyTest.cs
+RDFSKOSRelationsTest.cs
+
+Checking: This part is checked by Zhang KaiXiang and Gao Yuan
