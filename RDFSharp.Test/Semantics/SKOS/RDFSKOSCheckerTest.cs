@@ -46,21 +46,6 @@ namespace RDFSharp.Test.Semantics.SKOS
         [TestMethod]
         public void ShouldCheckBroaderRelation()
         {
-            //add taxonomy to entry
-            /*RDFSKOSRelations relations = new RDFSKOSRelations();
-
-            RDFOntologyResource taxonomySubject = new RDFOntologyResource();
-            taxonomySubject.Value = (RDFPatternMember)resourcesubject;
-            RDFOntologyResource taxonomyObject = new RDFOntologyResource();
-            taxonomyObject.Value = (RDFPatternMember)resourceobject;
-
-            bool addEntry = relations.Broader.AddEntry(
-                new RDFSharp.Semantics.OWL.RDFOntologyTaxonomyEntry(
-                    taxonomySubject
-                    , RDFVocabulary.SKOS.BROADER.ToRDFOntologyObjectProperty()
-                    , taxonomyObject));
-            Assert.IsTrue(addEntry);*/
-
             //check whether the CheckBroaderRelation result in Broader, narrow, related, match relations 
             Assert.IsNotNull(conceptscheme.Relations.Broader);
             Assert.IsTrue(RDFSKOSChecker.CheckBroaderRelation(conceptscheme,conceptbroader,conceptnarrow));
